@@ -1,4 +1,4 @@
--- Boleka: owner registration database
+-- Gearhood: owner registration database
 -- Run this once in Supabase: Dashboard > SQL Editor > New query > paste > Run.
 --
 -- Security model:

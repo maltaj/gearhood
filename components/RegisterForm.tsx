@@ -52,7 +52,7 @@ export default function RegisterForm() {
   }
 
   if (code) {
-    const share = `I'm a founding owner on Boleka, renting gear to neighbours in Cape Town. Register your tent, cooler box or tools too, with my code ${code}.`;
+    const share = `I'm a founding owner on Gearhood, renting gear to neighbours in Cape Town. Register your tent, cooler box or tools too, with my code ${code}.`;
     return (
       <div className="flex flex-col gap-4 rounded-2xl border border-line bg-surface p-6" role="status">
         <p className="text-sm font-bold uppercase tracking-wider text-pink">You're registered</p>
@@ -152,7 +152,7 @@ export default function RegisterForm() {
       <label className="flex items-start gap-3 text-sm" htmlFor="consent">
         <input id="consent" type="checkbox" className="mt-1 h-5 w-5" checked={consent} onChange={(e) => setConsent(e.target.checked)} />
         <span>
-          I agree that Boleka may store my name, number, suburb and item details to contact me about listing my items.
+          I agree that Gearhood may store my name, number, suburb and item details to contact me about listing my items.
           I can ask for my details to be deleted at any time.
         </span>
       </label>
