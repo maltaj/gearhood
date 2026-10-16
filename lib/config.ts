@@ -7,7 +7,7 @@ export const SUBURBS = [
 ];
 
 export const VALUE_CAP = 15000;          // max replacement value per item (R)
-export const OWNER_COMMISSION = 0.15;    // Boleka's cut of the rent after the founding period
+export const OWNER_COMMISSION = 0.15;    // Gearhood's cut of the rent after the founding period
 export const DAY_RATE_SHARE = 0.04;      // suggested day rate = 4% of replacement value
 export const MAX_ITEMS = 5;              // items per registration
 

@@ -2,7 +2,7 @@ import RegisterForm from "@/components/RegisterForm";
 import { OFFER, VALUE_CAP, rand } from "@/lib/config";
 
 const perks = [
-  { title: `0% commission for ${OFFER.freeMonths} months`, body: "Keep all the rent from your first rentals. After that Boleka keeps 15%." },
+  { title: `0% commission for ${OFFER.freeMonths} months`, body: "Keep all the rent from your first rentals. After that Gearhood keeps 15%." },
   { title: "Free listing photos", body: "We visit, check your items and take the photos, so your listing looks good from day one." },
   { title: `R${OFFER.referralCredit} per friend`, body: "Share your code. You get credit each time a friend's item is rented." },
   { title: "Founding owner badge", body: "Your listings show first when renters arrive for the holidays." },
@@ -28,8 +28,8 @@ export default function Home() {
       <header className="border-b border-line bg-surface">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3">
           <span className="flex flex-col leading-tight">
-            <span className="font-display text-2xl font-extrabold tracking-tight">Boleka</span>
-            <span className="text-xs text-muted">Borrow from your neighbours</span>
+            <span className="font-display text-2xl font-extrabold tracking-tight">Gearhood</span>
+            <span className="text-xs text-muted">Rent gear from your neighbours</span>
           </span>
           <a href="#register" className="btn min-h-[44px] px-4 text-sm">Register your gear</a>
         </div>
@@ -42,7 +42,7 @@ export default function Home() {
             That tent in your garage could pay for itself this summer.
           </h1>
           <p className="max-w-[56ch] text-lg text-muted">
-            Boleka lets neighbours rent your camping gear, cooler boxes, baby gear and tools when you're not using them.
+            Gearhood lets neighbours rent your camping gear, cooler boxes, baby gear and tools when you're not using them.
             We're signing up owners now, before renters arrive for the December holidays.
           </p>
           <a href="#register" className="btn self-start">Register as a founding owner</a>
@@ -104,7 +104,7 @@ export default function Home() {
 
       <footer className="border-t border-line">
         <div className="mx-auto max-w-5xl px-4 py-6 text-sm text-muted">
-          Boleka · Cape Town. Your details are used only to contact you about listing your items.
+          Gearhood · Cape Town. Your details are used only to contact you about listing your items.
         </div>
       </footer>
     </main>

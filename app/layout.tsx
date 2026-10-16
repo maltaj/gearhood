@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Boleka | Earn from gear you hardly use",
+  title: "Gearhood | Earn from gear you hardly use",
   description:
-    "Register your tents, cooler boxes, baby gear and tools as a founding owner on Boleka, Cape Town's neighbour-to-neighbour gear rental.",
+    "Register your tents, cooler boxes, baby gear and tools as a founding owner on Gearhood, Cape Town's neighbour-to-neighbour gear rental.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

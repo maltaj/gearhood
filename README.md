@@ -1,4 +1,4 @@
-# Boleka — founding owner registration
+# Gearhood — founding owner registration
 
 A small Next.js site where Cape Town owners register gear they'd rent out.
 Registrations are saved in a Supabase (Postgres) database.
@@ -33,7 +33,7 @@ Delete the test rows afterwards.
 1. Push this folder to a new GitHub repository.
 2. Go to <https://vercel.com>, sign in with GitHub, and click **Add New → Project**. Pick the repository.
 3. Under **Environment Variables** add `SUPABASE_URL` and `SUPABASE_ANON_KEY` with your values.
-4. Click **Deploy**. You get a live link such as `boleka.vercel.app`; you can add your own domain later in Vercel's settings.
+4. Click **Deploy**. You get a live link such as `gearhood.vercel.app`; you can add your own domain later in Vercel's settings.
 
 ## Seeing and managing registrations
 
